@@ -1,0 +1,174 @@
+/*公共样式*/
+html,body,div,h1,h2,h3,h4,h5,h6,p,ul,li,form,input,img{
+	margin:0;
+	padding: 0;
+}
+img{
+	border: none;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.leftFloat{
+	float: left;
+}
+.rightFloat{
+	float: right;
+}
+.clearFloat{
+	clear: both;
+}
+html{
+	font-family: "Microsoft YaHei";
+	background-color: #F5F5F5;
+}
+/*渐变*/
+.gradient{
+	background: -webkit-linear-gradient(top,#fff,#f5f5f5);/*Safari chrome*/
+    background: -o-linear-gradient(top,#fff,#f5f5f5);/*Opera*/
+    background: -moz-linear-gradient(top,#fff,#f5f5f5);/*Firefox*/
+    background: -ms-linear-gradient(top,#fff,#f5f5f5);/*ie10+*/
+    background: linear-gradient(top,#fff,#f5f5f5);/*标准*/
+    -ms-filter:"progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#fff, endColorstr=#f5f5f5)";
++background:#FF7800;/*ie9-*/
+}/*头部样式*/
+#head{
+	width: 100%;
+	height: 25px;
+	border-bottom: 1px solid #ccc;
+	background-color: #F5F5F5;
+}
+#head .wrapper{
+	width: 1024px;
+	margin: auto;
+}
+#head ul{
+	float: right;
+	padding-right: 10px;
+}
+#head li{
+	float: left;
+	height: 25px;
+	font-size: 12px;
+	line-height: 25px;
+}
+#head a{
+	color: #8E8E8E;
+}
+/*主体*/
+.container{
+	width: 1024px;
+	margin: auto;
+	background-color: #fff;
+}
+.logo{
+	height: 90px;
+	padding:10px 0 0 30px;
+}
+/*导航*/
+.nav{
+	height: 30px;
+	background-color: #756C65;
+	border-radius: 5px;
+}
+.nav li{
+	float: left;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+
+}
+.nav li a{
+	color: #fff;
+}
+.nav form{
+	height: 30px;
+	padding:3px 30px 0 0;
+}
+#ad ul{
+	position: relative;
+	height: 350px;
+	margin: 10px 0;
+}
+#ad li{
+	position: absolute;
+}
+
+.content{
+	width: 328px;
+	height: 211px;
+	margin-left: 10px;
+}
+.content .title{
+	height: 30px;
+}
+.content h4{
+	width: 130px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #ccc;
+	border-bottom: none;
+	border-radius: 5px 5px 0 0;
+}
+.content .title p{
+	height: 30px;
+	width: 186px;
+	padding-right: 10px;
+	font-size: 14px;
+	text-align: right;
+	border-bottom: 1px solid #ccc;
+}
+.content a{
+	color: #786F66;
+}
+.content ul{
+	height: 160px;
+	padding:10px;
+	border: 1px solid #ccc;
+	border-top: none;
+}
+.content li{
+	width: 330px;
+	height: 70px;
+	padding:5px 0;
+}
+.content img{
+	float: left;
+	display: block;
+	width: 70px;
+	height: 70px;
+}
+.content li p{
+	float: right;
+	width: 250px;
+}
+.content li span{
+	font-size: 12px;
+}
+
+.weixin img{
+	width: 115px;
+	height:144px;
+}
+.weixin li p{
+	width: 205px;
+	color: #786F66;
+}
+.footer{
+	width: 100%;
+	height: 60px;
+	margin-top: 10px;
+	padding-top: 40px;
+	background-color: #E8E8E8;
+}
+.footer p{
+	width: 100%;
+	font-size: 12px;
+	text-align: center;
+	color: #aaa;
+}
